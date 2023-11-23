@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         var doubleArray = DoubleArray(10)
         // arrayOf() 함수를 사용하면 선언과 동시에 값을 입력할 수 있다.
         var intArray = arrayOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
-        // intArray 변수에는 1부터 10까지의 값이 각각의 배열 공간에 저장되어 있다.     ?
+        // intArray 변수에는 1부터 10까지의 값이 각각의 배열 공간에 저장되어 있다.
 
         // 2. 문자열 타입 배열 선언하기
         var stirngArray = Array(10, {item->""})
